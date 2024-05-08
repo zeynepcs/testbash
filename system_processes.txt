@@ -1,0 +1,4 @@
+%CPU %MEM CMD
+ 0.0  2.2 /usr/lib/systemd/systemd --switched-root --system --deserialize 31
+ 0.0  0.0 [kthreadd]
+ 0.0  0.0 [rcu_gp]

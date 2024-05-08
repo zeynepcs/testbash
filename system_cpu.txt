@@ -1,0 +1,1 @@
+ Intel(R) Xeon(R) Platinum 8259CL CPU @ 2.50GHz

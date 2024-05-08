@@ -1,0 +1,27 @@
+● systemd-logind.service - User Login Management
+     Loaded: loaded (/usr/lib/systemd/system/systemd-logind.service; static)
+    Drop-In: /usr/lib/systemd/system/systemd-logind.service.d
+             └─10-grub2-logind-service.conf
+     Active: active (running) since Wed 2024-05-08 06:03:20 UTC; 4h 32min ago
+       Docs: man:sd-login(3)
+             man:systemd-logind.service(8)
+             man:logind.conf(5)
+             man:org.freedesktop.login1(5)
+   Main PID: 656 (systemd-logind)
+     Status: "Processing requests..."
+      Tasks: 1 (limit: 4044)
+     Memory: 3.0M
+        CPU: 134ms
+     CGroup: /system.slice/systemd-logind.service
+             └─656 /usr/lib/systemd/systemd-logind
+
+May 08 06:03:20 localhost systemd[1]: Starting User Login Management...
+May 08 06:03:20 localhost systemd-logind[656]: Watching system buttons on /dev/input/event0 (Power Button)
+May 08 06:03:20 localhost systemd-logind[656]: Watching system buttons on /dev/input/event1 (Sleep Button)
+May 08 06:03:20 localhost systemd-logind[656]: Watching system buttons on /dev/input/event2 (AT Translated Set 2 keyboard)
+May 08 06:03:20 localhost systemd-logind[656]: New seat seat0.
+May 08 06:03:20 localhost systemd[1]: Started User Login Management.
+May 08 06:03:56 ip-172-31-33-70.eu-north-1.compute.internal systemd-logind[656]: New session 1 of user ec2-user.
+May 08 09:18:58 ip-172-31-33-70.eu-north-1.compute.internal systemd-logind[656]: Session 1 logged out. Waiting for processes to exit.
+May 08 09:18:58 ip-172-31-33-70.eu-north-1.compute.internal systemd-logind[656]: Removed session 1.
+May 08 09:45:01 ip-172-31-33-70.eu-north-1.compute.internal systemd-logind[656]: New session 3 of user ec2-user.
